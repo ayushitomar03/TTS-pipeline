@@ -1,6 +1,6 @@
 # TTS Pipeline
 
-Real-time text-to-speech streaming. Type in the browser — sentences are detected, synthesized via Google Cloud TTS, and played back in order before you finish typing.
+This project documents how a TTS pipeline evolves under latency and cost constraints — from a polling-based architecture (~4–6s) to sub-second WebSocket streaming — with production concerns like cost tracking, quotas, and failure handling built in alongside the trade-offs.
 
 ## Stack
 
